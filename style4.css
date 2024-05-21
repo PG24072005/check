@@ -1,0 +1,28 @@
+*{
+  margin: 10; /*default margin for all elements bcms 10px*/
+  box-sizing: border-box;
+}
+
+header{
+  width: 50%;  /*header element uses 50% of page width*/
+}
+
+
+h1{
+  border:2px dashed red;
+  width: 80%;    /*h1 element uses 40% of 50% of page width bcz it llies inside header element*/
+  font-size: 3rem;
+  padding: 0.5em;   /*i.e. padding width bcms half of font size of h1 element so half of 3*16px*/
+  
+}
+
+main{
+  font-size: 2rem;
+  width: 50vw; /*i.e. 50% of viewports width or we can use width:50%*/
+  background-color: skyblue;
+}
+
+p{
+  font-size: 2rem;  /*1rem is the default size set by the browser i.e. 16px so 2 rem is 32px*/
+  width: 45ch;  /*only 45characters per line*/
+}
